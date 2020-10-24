@@ -439,11 +439,11 @@ h6 {
 }
 
 .contacts-header__location:after {
-  content: url("../img/icons/place.png");
+  content: url("img/icons/place.png");
 }
 
 .contacts-header__tel:after {
-  content: url("../img/icons/phone.png");
+  content: url("img/icons/phone.png");
 }
 
 .footer {
