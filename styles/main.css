@@ -2221,6 +2221,7 @@ body {
 
   .form-footer__email {
     height: 50px;
+    width: 100%;
   }
 
   .form-footer__email::placeholder {
