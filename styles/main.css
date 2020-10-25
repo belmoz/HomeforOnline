@@ -256,7 +256,7 @@ h6 {
 
 .product__like:after {
   content: "";
-  background: url("../../img/icons/heart.png") center no-repeat;
+  background: url("../img/icons/heart.png") center no-repeat;
   position: absolute;
   background-size: 18px 15px;
   width: 100%;
@@ -298,15 +298,15 @@ h6 {
 }
 
 .product__internalArea:before {
-  background: url("../../img/icons/internalArea.png") center no-repeat;
+  background: url("../img/icons/internalArea.png") center no-repeat;
 }
 
 .product__totalArea:before {
-  background: url("../../img/icons/totalArea.png") center no-repeat;
+  background: url("../img/icons/totalArea.png") center no-repeat;
 }
 
 .product__finish:before {
-  background: url("../../img/icons/finish.png") center no-repeat;
+  background: url("../img/icons/finish.png") center no-repeat;
 }
 
 .product__price {
@@ -439,11 +439,11 @@ h6 {
 }
 
 .contacts-header__location:after {
-  content: url("../../../img/icons/place.png");
+  content: url("../img/icons/place.png");
 }
 
 .contacts-header__tel:after {
-  content: url("../../../img/icons/phone.png");
+  content: url("../img/icons/phone.png");
 }
 
 .footer {
@@ -656,15 +656,15 @@ input.error:focus {
 }
 
 .social-footer__link_vk:after {
-  background: url("../../../img/icons/vk.png") center no-repeat;
+  background: url("../img/icons/vk.png") center no-repeat;
 }
 
 .social-footer__link_inst:after {
-  background: url("../../../img/icons/instagram.png") center no-repeat;
+  background: url("../img/icons/instagram.png") center no-repeat;
 }
 
 .social-footer__link_fb:after {
-  background: url("../../../img/icons/facebook-2.png") center no-repeat;
+  background: url("../img/icons/facebook-2.png") center no-repeat;
 }
 
 .catalog {
@@ -1927,7 +1927,7 @@ body {
   }
 
   .contacts-header__tel:after {
-    content: url("../../../img/icons/phone-b.png");
+    content: url("../img/icons/phone-b.png");
   }
 
   .lock {
@@ -2143,7 +2143,7 @@ body {
   }
 
   .product__like:after {
-    background: url("../../img/icons/heart-black.png") center no-repeat;
+    background: url("../img/icons/heart-black.png") center no-repeat;
     background-size: 22px 19px;
   }
 
@@ -2214,23 +2214,13 @@ body {
   .menu-footer__link {
     font-size: 12px;
   }
-  
-  label.error {
-    top: 60px;
-    left: 50%;
-    width: 100%;
-    transform:translateX(-50%);
-  }
-  
-  input.error {
-    margin: 0 0 30px 0;
-  }
 
   .form-footer {
     display: block;
   }
 
   .form-footer__email {
+    width: 100%;
     height: 50px;
   }
 
@@ -2243,6 +2233,17 @@ body {
     height: 50px;
     font-size: 14px;
     letter-spacing: 2.52px;
+  }
+
+  label.error {
+    top: 60px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+
+  input.error {
+    margin: 0 0 30px 0;
   }
 
   .main-text__description {
